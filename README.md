@@ -25,12 +25,12 @@
 ###動作
 ####パブリッシャ、1000までの素数の値及びその数量をデータとして出す。
 ###実行方法
-####rosrun RobotSystem_Package primenum_pub.py を実行
-####rostopic echo /primenum_quanti でトピックとして素数の巣量を表示
-####rostopic echo /primenum_up でトピックとして素数の値を表示
+####1. rosrun RobotSystem_Package primenum_pub.py を実行
+####2. rostopic echo /primenum_quanti でトピックとして素数の巣量を表示
+####2. rostopic echo /primenum_up でトピックとして素数の値を表示
 ##primenum_sub.py
 ###動作
 ####サブスクライバ、パブリッシャからデータを受け取り、1000までの素数の値と数量の両方を表示
 ###実行方法
-####rosrun RobotSystem_Package primenum_pub.py を実行
-####rosrun RobotSystem_Package primenum_sub.py を実行で素数の値と数量の両方を表示
+####1. rosrun RobotSystem_Package primenum_pub.py を実行
+####2. rosrun RobotSystem_Package primenum_sub.py を実行で素数の値と数量の両方を表示
