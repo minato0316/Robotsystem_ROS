@@ -3,7 +3,6 @@
 ##count.py
 ###動作
 ####パブリッシャ、変数を+1してデータを出す。これを繰り返す。
-####ノードを立ち上げてトピックとしてデータを受け取る。
 ###実行方法
 ####1. rosrun RobotSystem_Package count.py 実行
 ####2. rostopic echo /count_up でトピックとして値を表示
@@ -24,8 +23,14 @@
 ####
 ##primenum_pub.py
 ###動作
+####パブリッシャ、1000までの素数の値及びその数量をデータとして出す。
 ###実行方法
+####rosrun RobotSystem_Package primenum_pub.py を実行
+####rostopic echo /primenum_quanti でトピックとして素数の巣量を表示
+####rostopic echo /primenum_up でトピックとして素数の値を表示
 ##primenum_sub.py
 ###動作
+####サブスクライバ、パブリッシャからデータを受け取り、1000までの素数の値と数量の両方を表示
 ###実行方法
-
+####rosrun RobotSystem_Package primenum_pub.py を実行
+####rosrun RobotSystem_Package primenum_sub.py を実行で素数の値と数量の両方を表示
