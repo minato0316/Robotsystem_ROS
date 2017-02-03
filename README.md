@@ -19,14 +19,14 @@
 ###実行方法
 ####1. rosrun RobotSystem_Package count.py 実行
 ####2. rosrun RobotSystem_Package twice2.py 実行
-####3.rostopic echo /twice でcount.pyの2倍された値をトピックとして表示
+####3.rostopic echo /twice2 でcount.pyの2倍された値をトピックとして表示
 ####
 ##primenum_pub.py
 ###動作
 ####パブリッシャ、1000までの素数の値及びその数量をデータとして出す。
 ###実行方法
 ####1. rosrun RobotSystem_Package primenum_pub.py を実行
-####2. rostopic echo /primenum_quanti でトピックとして素数の巣量を表示
+####2. rostopic echo /primenum_quanti でトピックとして素数の数量を表示
 ####2. rostopic echo /primenum_up でトピックとして素数の値を表示
 ##primenum_sub.py
 ###動作
