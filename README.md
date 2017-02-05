@@ -23,7 +23,7 @@
 ####
 ##primenum_pub.py
 ###動作
-####パブリッシャ、1000までの素数の値及びその数量をデータとして出す。
+####パブリッシャ、1000までの素数の値及びその数量(何番目か)をデータとして出す。
 ###実行方法
 ####1. rosrun RobotSystem_Package primenum_pub.py を実行
 ####2. rostopic echo /primenum_quanti でトピックとして素数の数量を表示
