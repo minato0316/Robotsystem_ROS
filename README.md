@@ -1,4 +1,5 @@
 # RobotSystem_ROS
+##robosys_mypkg
 ###最初に端末でroscoreを起動しておく
 ##count.py
 ###動作
