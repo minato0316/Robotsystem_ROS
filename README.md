@@ -5,33 +5,33 @@
 ###動作
 ####パブリッシャ、変数を定義し、＋１しながら表示させていく。
 ###実行方法
-####1. rosrun robosys_pkg count.py 実行
+####1. rosrun robosys_mykg count.py 実行
 ####2. rostopic echo /count_up でトピックとして値を表示
 ##twice.py
 ###動作
 ####サブスクライバ、パブリッシャからデータを受け取り２倍して表示する。
 ###実行方法
-####1. rosrun robosys_pkg count.py 実行
-####2. rosrun robosys_pkg twice.py 実行でcount.pyの２倍された値を表示
+####1. rosrun robosys_mypkg count.py 実行
+####2. rosrun robosys_mypkg twice.py 実行でcount.pyの２倍された値を表示
 ##twice2.py
 ###動作
 ####パブリッシャとサブスクライバの同居、count.pyのデータを受け取り２倍する。
 ####ノードを立ち上げてトピックとしてデータを受け取る。
 ###実行方法
-####1. rosrun robosys_pkg count.py 実行
-####2. rosrun robosys_pkg twice2.py 実行
+####1. rosrun robosys_mypkg count.py 実行
+####2. rosrun robosys_mypkg twice2.py 実行
 ####3.rostopic echo /twice2 でcount.pyの2倍された値をトピックとして表示
 ####
 ##primenum_pub.py
 ###動作
 ####パブリッシャ、1000までの素数の値及びその数量(何番目か)をデータとして出す。
 ###実行方法
-####1. rosrun robosys_pkg primenum_pub.py を実行
+####1. rosrun robosys_mypkg primenum_pub.py を実行
 ####2. rostopic echo /primenum_quanti でトピックとして素数の数量を表示
 ####2. rostopic echo /primenum_up でトピックとして素数の値を表示
 ##primenum_sub.py
 ###動作
 ####サブスクライバ、パブリッシャからデータを受け取り、1000までの素数の値と数量の両方を表示
 ###実行方法
-####1. rosrun robosys_pkg primenum_pub.py を実行
-####2. rosrun robosys_pkg primenum_sub.py を実行で素数の値と数量の両方を表示
+####1. rosrun robosys_mypkg primenum_pub.py を実行
+####2. rosrun robosys_mypkg primenum_sub.py を実行で素数の値と数量の両方を表示
