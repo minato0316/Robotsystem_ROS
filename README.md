@@ -3,7 +3,7 @@
 ###最初に端末でroscoreを起動しておく
 ##count.py
 ###動作
-####パブリッシャ、変数を+1してデータを出す。これを繰り返す。
+####パブリッシャ、変数を定義し、＋１しながら表示させていく。
 ###実行方法
 ####1. rosrun RobotSystem_Package count.py 実行
 ####2. rostopic echo /count_up でトピックとして値を表示
